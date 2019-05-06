@@ -1,7 +1,7 @@
 # Grade-Management-System
 
 
- ABSTRACT
+ABSTRACT
 As project, we have come with the development of the website ‘Grade Management System
 (GMS)’. Managing grade of the student in a proper manner has always been the priority of
 every educational system worldwide. With the help of GMS, faculties and other members who
@@ -26,28 +26,14 @@ and friends who helped directly or indirectly and we express our sincere appreci
 suggestions. We would like to express our gratitude to CE 2nd Year Students Roshan
 Adhikari,Anish Byanjankar, Salil Koirala,S ajan Maharjan,Saurav prajapati and Vivek Shakya
 Batch who initiated this project.
-4Table of Contents
-1. INTRODUCTION ...................................................................................................................... 6
-1.1 Background and Objectives .................................................................................................. 6
-1.2 Problems and Possible Solutions .......................................................................................... 7
-1.3 Scope and Opportunities ....................................................................................................... 7
-2. RELATED WORK ..................................................................................................................... 8
-2.1 Creatrix Campus ................................................................................................................... 8
-2.2 Quick Schools ....................................................................................................................... 9
-3. SOFTWARE DEVELOPMENT ............................................................................................. 10
-3.1 System Overview ................................................................................................................ 10
-3.2 Use Case Diagram ............................................................................................................... 11
-3.3 Activity Diagram ................................................................................................................ 12
-3.4 Data Flow Diagram ............................................................................................................. 13
-3.5 Database Diagram ............................................................................................................... 14
-3.6 Working Mechanism Of GMS ............................................................................................ 15
-4. CONCLUSION AND RECOMMENDATION ........................................................................ 16
-4.1 Conclusion .......................................................................................................................... 16
-4.2 Recommendation ................................................................................................................ 16
-BIBLIOGRAPHY ......................................................................................................................... 17
-GANTT CHART .......................................................................................................................... 18
-51. INTRODUCTION
+
+
+INTRODUCTION
+
+
 1.1 Background and Objectives
+
+
 Grade Management System abb. as GMS is a cross-platform for the management of the grades
 for the Department of Computer Science and Engineering priorotised for .PostGraduates.This
 system is helpful for replacing the orthodox way of knowing the grades by the students.Earlier the
@@ -61,7 +47,9 @@ faster and convinient.GMS can indeed be a sample website for all those education
 who plan of making their grade management systematic and ofcourse digitalized.
 The world is moving forward in the process of digitalization,the educational sector is really
 important in bringing such change,GMS can be a sample website for many such projects.
-61.2 Problems and Possible Solutions
+
+
+1.2 Problems and Possible Solutions
 Grades are always important for a student,his/her overall performance of the semester is presented
 in the form of grades so to make it faster,convinient and managed its important for any educational
 organization.University is always an example for colleges in the country,in such situation when a
@@ -92,7 +80,10 @@ grades,presenting it in a welldefined manner and making further plans with the g
 the performance of the educational organization.In this way,an educational system can be
 revolutionized with the help of GMS,and we can definetely say there are enough scopes for this
 technology.
-72. RELATED WORK
+
+
+2. RELATED WORK
+
 We found two websites which are somewhat similar to our GMS in terms of managing academic
 records
 2.1 Creatrix Campus
@@ -103,10 +94,15 @@ day to day administrative activities for better decision-making
 Quick Schools is a school management system for the web generation. It is an online gradebook.
 This is a way for parents to track a child’s progress. It is a central location for homework and
 assignment.
-93. SOFTWARE DEVELOPMENT
+
+
+
+
+3. SOFTWARE DEVELOPMENT
 Software development is the process of computer programming, documenting, testing, and bug
 fixing involved in creating and maintaining applications and frameworks resulting in
 a software product.
+
 3.1 System Overview
 a. Front-End WEB DEVELOPMENT
 We have used HTML – Markup Language to build the framework of the website.
@@ -120,28 +116,8 @@ Brackets and Sublime text were used for text-editing purposes. Whereas XAMPP,
 LAMP and WAMPP for hosting the website.
 d. Interface
 GMS is an web application.
-103.2 Use Case Diagram
-Administrator, Teacher and Student are the three actors in the above given Use Case Diagram.
-Administrator possess the major access of the system. Whereas Teacher has permission to
-Assign Grades and Students can only view their reports.
-113.3 Activity Diagram
-First of all Teacher , Student and Courses are entered into the database by the Administrator.
-Teachers are assigned into different courses where the teacher in turn assigns the grade to the
-students in their respective courses. Now, the students can view their report.
-123.4 Data Flow Diagram
-The above mentioned diagram is the Data Flow Diagram for GMS. Information from the users
-are stored in respective tables of the database. When teacher assign the grade in the certain
-course, it is updated in the course and grade tables. When student requests for grade then data is
-retrieved from grade table by view report function.
-133.5 Database Diagram
-There are seven tables that are stored in database; class, course, student, student_grade,
-teacher_detail, user and user_detail. The table class and courses comprises basic information of
-class such as class id, batch, course code and instructor. The table student, teacher_detail and
-user_detail consists all the essential information such as name, address, email address and so on.
-The table student_grade stores information such as registration number, grade, class id and so
-on. The table user stores username and password.
-143.6 Working Mechanism Of GMS
-154. CONCLUSION AND RECOMMENDATION
+
+4. CONCLUSION AND RECOMMENDATION
 4.1 Conclusion
 Grade Management System is a website that allows the management of grades of the
 students in more systematic manner. With this website the access can be allowed to only
@@ -150,6 +126,7 @@ authorities i.e. Faculties and Students. Faculties can update, upgrade grades ac
 their respective subjects and students can view the grades. This can be a sample website
 to many other educational organization who plan of managing the grades in systematic
 manner.
+
 4.2 Recommendation
 We have developed this application as our project during third semester.This project has
 turned out to be informative in many ways. Each stage we have learned various things
@@ -159,9 +136,9 @@ like this, we get the information about how the Websites work.In this age of Int
 everyone wants to get online,even the small organization wants to get connected with
 Internet,with the experience of GMS we can make websites for many such organization
 and hence make them connected to this ocean called Internet.
-1
 
-6BIBLIOGRAPHY
+
+BIBLIOGRAPHY
 1. Jeff Noble, Ed tittel,, HTML,XHTML & CSS for Dummies , 2008.
 2. Dooley, Kline MYSQL SERVER ADMIN,2010.
 3. Silberschatz, Korth,Sudarshan, DATABASE SYSTEM CONCEPTS,2006..
@@ -184,20 +161,4 @@ https://www.creately.com/
 http://eti.ng/php-and-mysqli-database-integration.html
 http://www.mysqltutorial.org/
 
-2
-3
-Gathering
-3 System Design
-4 Implementation/Build
-5 Code Review and
-Debugging
-6
-Documentation
-18
-4
-5
-6
-7
-8
-9
-10 11 12
+
