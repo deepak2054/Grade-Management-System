@@ -1,7 +1,7 @@
 # Grade-Management-System
 
 
-ABSTRACT
+#ABSTRACT
 As project, we have come with the development of the website ‘Grade Management System
 (GMS)’. Managing grade of the student in a proper manner has always been the priority of
 every educational system worldwide. With the help of GMS, faculties and other members who
