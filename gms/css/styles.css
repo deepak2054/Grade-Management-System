@@ -1,0 +1,15 @@
+#file_browse { /* File Upload */
+	display: none;
+}
+
+#file_browse_label {
+	background: #39f;
+	color: #fff;
+	padding: 4px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px #666;
+	text-align: center;
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

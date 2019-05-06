@@ -1,0 +1,89 @@
+
+		nav ul {
+			list-style: none;
+			background: -webkit-linear-gradient(top,#39f,#27d);
+			width: 100%;
+			box-shadow: 0px 2px 2px #666;
+			margin-left: 0;
+			margin-bottom: 10px;
+		}
+
+		nav ul li {
+			color: #fff;
+			float: left;
+			position: relative;
+		}
+
+		nav ul li div {
+			display: none;
+			position: absolute;
+			z-index:2;
+		}
+
+		nav ul li div ul {
+			animation: myAnimation 0.5s;
+			margin-top: 10px;
+		}
+
+		nav ul li div ul li {
+			background: #39f;
+			width: 100px;
+			box-shadow: 0px 2px 2px #666;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: #000;
+			padding: 10px;
+			display: block;
+			text-shadow: 0.5px 0.5px 1px #e1e1e1;
+			transition: background 0.4s, color 0.4s;
+		}
+
+		nav ul li a:hover {
+			background: #27d;
+			color: #fff;
+			text-shadow: 0.5px 0.5px 1px #000;
+		}
+
+		nav ul li:hover div {
+			display: block;
+		}
+
+		nav ul li div ul::after {
+			content: '';
+			position: absolute;
+			border-style: solid;
+			border-width: 10px;
+			border-color: transparent transparent #39f transparent;
+			top: -10px;
+			left: 0;
+		}
+
+		@keyframes myAnimation {
+			from {
+				transform: scale(0);
+				opacity: 0;
+			}
+
+			to {
+				transform: scale(1);
+				opacity: 1;
+			}
+		}
+
+		#arrow {
+			position: relative;
+			background: #33CCCC;
+			width: 100px;
+			height: 100px;
+			margin-top: 10px;
+		}
+
+		#arrow div {
+			border-width: 50px;
+			position: absolute;
+			border-style: solid;
+			border-color: transparent transparent transparent #33CCCC;
+			left: 100%;
+		}
