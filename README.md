@@ -13,19 +13,6 @@ MYSQL as a backend development tool.
 
 
 
-ACKNOWLEDGEMENT
-Firstly we are much pleased to conduct the project ‘Grade Management System’ . Therefore we
-would like to thank the DOCSE for providing us an opportunity to work on this project. At most,
-we would like to thank our project supervisor Mr. Manoj Shakya for guiding, assisting and
-pointing out our mistakes. He has been helping us in many ways from the day we had started our
-project. Moreover we are greatful to our project coordinator for beliving the eligibility of our
-project.We are greatful to our seniors for being with us and for guiding us due to which our project
-is carried out with mutual coordination among the group members. The contribution and hardwork
-of our team has brought project to its final stage . We wish to acknowledge all the teachers, seniors
-and friends who helped directly or indirectly and we express our sincere appreciation for their
-suggestions. We would like to express our gratitude to CE 2nd Year Students Roshan
-Adhikari,Anish Byanjankar, Salil Koirala,S ajan Maharjan,Saurav prajapati and Vivek Shakya
-Batch who initiated this project.
 
 
 INTRODUCTION
